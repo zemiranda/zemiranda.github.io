@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    --color1: #FFF ;
+    --color2: #181818 ;
+}
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: none;
+    padding: 12px 20px;
+    z-index: 1; 
+    
+}
+/*Logo SiX*/
+#logo{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 28px; 
+    font-family: 'Lora', sans-serif; 
+}
+
+.menu {display: flex;}
+.menu li {padding-left: 30px;}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color1);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif; 
+}
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--color1);
+    transition: 0.15s ease-in-out;
+}
+.menu li a:hover:after {width: 100%;}
+.open-menu , .close-menu {
+    position: absolute;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+
+hr {
+    color: rgb(255, 255, 255);
+    margin: 0 auto;  
+    width: calc(100% - 40px);
+}
+
+.landingImage {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    top: 0;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    text-align: center;       
+}
+
+.landingImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;  
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    filter: brightness(70%);
+}
+
+.landingImage a {
+    color: white; 
+    font-size: 48px; 
+    margin: 0;   
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 42px;
+    margin-top: 30px;
+}
+
+.about {
+   
+    z-index: 1; 
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 720px;
+    color: rgb(86, 53, 30);
+    display: flex;
+    flex-direction: column;  
+}
+
+.about h3{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 100;
+    filter: brightness(85%);
+    margin-top: 100px;
+    color: rgb(204, 173, 123);
+    font-size: 24px;
+}
+
+.about h2{
+    font-family: 'IBM Plex Mono', sans-serif; 
+    font-weight: 100;
+    color: rgb(172, 172, 139);
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.about a {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    padding: 0 20px; 
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+#check {display: none;}
+@media(max-width: 700px){
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--color2);
+        transition: all 0.2s ease-in-out;
+    }
+    .menu li {margin-top: 40px;}
+    .menu li a {padding: 10px;}
+    .open-menu , .close-menu {display: block;}
+    #check:checked ~ .menu {right: 0;}
+}
