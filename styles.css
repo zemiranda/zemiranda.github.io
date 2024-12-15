@@ -152,18 +152,19 @@ body {
     }
 }
 
-@media (max-width: 620px) {
+@media  screen and ( max-width: 620px) {
 
 
     .header a{
         font-size: 8px;
         font-weight: 100;
-        
+        width: 100%; /* Ensure the container takes full width of the screen */
+        max-width: 100%; /* Ensure no overflow */
     }
 }
 
 /* Computador */
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .about a {
         padding: 0 100px; 
     }
