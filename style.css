@@ -330,6 +330,107 @@ hr {
     text-align: left; /* Aligns the text to the left */
 }
 
+.publications {
+   
+    z-index: 1; 
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(86, 53, 30);
+    display: flex;
+    flex-direction: column;  
+}
+
+.publications h3{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 50;
+    filter: brightness(85%);
+    margin-top: 100px;
+    color: rgb(204, 173, 123);
+    font-size: 24px;
+}
+
+.publications h2{
+    font-family: 'Playfair Display SC'; 
+    font-weight: 100;
+    color: rgb(172, 172, 139);
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.publications a {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    padding: 0 20px; 
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.publications hr{
+    margin-top: 50px;
+    color: rgb(227, 215, 196);
+}
+
+.row2{
+    width: 90%;
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.row2 .left{
+    overflow: hidden;
+}
+
+.row2 .left img{
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.row2 .right{
+   display: flex;
+
+}
+
+
+
+.row2 .right .content hr{
+    
+    color: rgb(86, 53, 30);
+    width: 100% ;
+    
+}
+
+.row2 .right .content h2{
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(86, 53, 30);
+    font-size: 40px;
+    margin: 0;
+    padding:20px;
+    text-align: right;
+    
+}
+
+.row2 .right .content h3{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 100;
+    filter: brightness(85%);
+    color: rgb(86, 53, 30);
+    font-size: 24px;
+    max-width: 900px;
+    margin-top: 55px;
+    text-align: left; /* Aligns the text to the left */
+}
+
 
 
 
