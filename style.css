@@ -432,6 +432,34 @@ hr {
     text-align: left; /* Aligns the text to the left */
 }
 
+.footer{
+    background-color: #c6aa7b;
+    text-align: center;
+
+    margin-top: 80px;
+}
+
+.footer a{
+    color: rgb(86,53,30);
+    font-weight: 50;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+}
+
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 40px; 
+    height: 150px; 
+    padding: 5px; 
+}
+
+
+.image-container img {
+    width: 100px; 
+    height: auto; 
+}
 
 
 
@@ -477,6 +505,11 @@ hr {
     
         font-size: 45px;    
         margin-left: 47px;
+    }
+
+    .image-container img {
+        width: 75px; 
+        height: auto; 
     }
    
 }
