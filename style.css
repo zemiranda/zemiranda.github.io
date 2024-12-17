@@ -609,7 +609,7 @@ hr {
 
 .team-2page hr{
     padding-bottom: 30px;
-    width: 80%;
+    
 }
 
 .activityPlan-2page {
@@ -750,5 +750,6 @@ hr {
     .team-2page a{
         padding-left: 40px;
         font-size: 18px;
+        padding-right: 10px;
     }
 }
