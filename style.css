@@ -657,6 +657,57 @@ hr {
     padding-right: 200px;
     
 }
+ 
+.contactPublications-2page {
+   
+    z-index: 1; 
+    padding: 20px;
+    text-align: center;
+    padding-top: 120px;
+    color: rgb(86, 53, 30);
+    display: flex;
+    flex-direction: column;  
+}
+
+.contactPublications-2page h2{
+    font-family: 'Playfair Display SC';
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(172, 172, 139);
+    margin-bottom: 50px;
+    text-align: left;
+    padding-left: 200px;
+    
+}
+
+.contactPublications-2page h3{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 100;
+    text-align: left;
+    filter: brightness(85%);
+    padding: 50px;
+    color: rgb(86, 53, 30);
+    font-size: 24px;
+    padding-left: 200px;
+}
+
+.contactPublications-2page a{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 100;
+    text-align: left;
+    filter: brightness(85%);
+    padding: 50px;
+    color: rgb(86, 53, 30);
+    font-size: 24px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.contactPublications-2page hr{
+    width: 80%;
+    
+}
 
 #check {display: none;}
 
@@ -751,5 +802,26 @@ hr {
         padding-left: 40px;
         font-size: 18px;
         padding-right: 10px;
+    }
+
+    .contactPublications-2page h2{
+        font-size: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+    .contactPublications-2page h3{
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+    .contactPublications-2page a{
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
     }
 }
