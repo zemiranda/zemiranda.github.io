@@ -477,7 +477,7 @@ hr {
     font-family: 'Playfair Display SC';
     font-size: 60px;
     font-weight: 100;
-    color: rgb(172, 172, 139);
+    color: rgb(13, 74, 84);
     margin-top: 50px;
     margin-bottom: 50px;
     
@@ -494,6 +494,12 @@ hr {
     flex-direction: column;  
 }
 
+.outputs-2page hr{
+   width: 80%;
+    margin-bottom: 40px;
+    
+}
+
 .about-2page h3{
     font-family: 'Montserrat', sans-serif; 
     font-weight: 100;
@@ -508,7 +514,7 @@ hr {
     font-family: 'Playfair Display SC';
     font-size: 60px;
     font-weight: 100;
-    color: rgb(86, 53, 30);
+    color: rgb(13, 74, 84);
     margin-bottom: 50px;
     
 }
@@ -577,7 +583,7 @@ hr {
     font-size: 60px;
     padding: 40px;
     font-weight: 100;
-    color: rgb(86, 53, 30);
+    color: rgb(13, 74, 84);
     text-align: center;
     
 }
@@ -627,7 +633,7 @@ hr {
     font-family: 'Playfair Display SC';
     font-size: 60px;
     font-weight: 100;
-    color: rgb(172, 172, 139);
+    color: rgb(13, 74, 84);
     margin-bottom: 50px;
     text-align: left;
     padding-left: 100px;
@@ -671,9 +677,9 @@ hr {
 
 .contactPublications-2page h2{
     font-family: 'Playfair Display SC';
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 100;
-    color: rgb(172, 172, 139);
+    color: rgb(13, 74, 84);
     margin-bottom: 50px;
     text-align: left;
     padding-left: 200px;
@@ -685,7 +691,7 @@ hr {
     font-weight: 100;
     text-align: left;
     filter: brightness(85%);
-    padding: 50px;
+    padding: 40px;
     color: rgb(86, 53, 30);
     font-size: 24px;
     padding-left: 200px;
@@ -696,7 +702,7 @@ hr {
     font-weight: 100;
     text-align: left;
     filter: brightness(85%);
-    padding: 50px;
+    padding: 35px;
     color: rgb(86, 53, 30);
     font-size: 24px;
     padding-left: 200px;
@@ -706,6 +712,41 @@ hr {
 
 .contactPublications-2page hr{
     width: 80%;
+    
+}
+.research-2page {
+   
+    z-index: 1; 
+    padding: 20px;
+    text-align: center;
+    padding-top: 200px;
+    color: rgb(86, 53, 30);
+    display: flex;
+    flex-direction: column;  
+}
+
+.research-2page h3{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 100;
+    text-align: left;
+    filter: brightness(85%);
+    padding: 100px;
+    color: rgb(204, 173, 123);
+    font-size: 24px;
+}
+
+.research-2page h2{
+    font-family: 'Playfair Display SC';
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(13, 74, 84);
+    margin-bottom: 50px;
+    
+}
+
+.research-2page hr{
+    
+    margin-bottom: 50px;
     
 }
 
