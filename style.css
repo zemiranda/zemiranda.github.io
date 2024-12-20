@@ -750,6 +750,54 @@ hr {
     
 }
 
+.research2-2page {
+   
+    z-index: 1; 
+    padding: 20px;
+    text-align: center;
+    padding-top: 200px;
+    color: rgb(86, 53, 30);
+    display: flex;
+    flex-direction: column;  
+}
+
+.research2-2page h2{
+    font-family: 'Playfair Display SC';
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(13, 74, 84);
+    margin-bottom: 50px;
+    text-align: left;
+    padding-left: 100px;
+    
+}
+
+.research2-2page h3{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 100;
+    text-align: left;
+    filter: brightness(85%);
+    padding: 20px;
+    color: rgb(86, 53, 30);
+    font-size: 24px;
+    padding-left: 100px;
+}
+
+.research2-2page a{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 100;
+    text-align: left;
+    filter: brightness(85%);
+    padding: 50px;
+    color: rgb(86, 53, 30);
+    font-size: 24px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+
+
 #check {display: none;}
 
 /*Para telemovel*/
@@ -865,4 +913,47 @@ hr {
         padding-right: 20px;
         
     }
+
+    .research-2page h2{
+        font-family: 'Playfair Display SC';
+        font-size: 40px;
+        font-weight: 100;
+        padding: 20px;
+        color: rgb(13, 74, 84);
+        text-align: center;
+        
+        
+    }
+
+    .research-2page h3{
+        font-size: 18px;
+        font-weight: 100;
+        padding: 20px;
+        color: rgb(13, 74, 84);
+        text-align: left;
+        
+    }
+
+    .research2-2page h2{
+        font-size: 40px;
+        text-align: left;
+        padding: 20px;
+        
+        
+    }
+    .research2-2page h3{
+        font-size: 20px;
+        
+        
+    }
+
+    .research2-2page a{
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+
+   
 }
